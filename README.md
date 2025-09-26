@@ -165,35 +165,35 @@ docker-compose down
 
 ```
 floatchat/
-├── src/                          # Source code
-│   ├── api/                      # FastAPI backend
+├── src/                             # Source code
+│   ├── api/                         # FastAPI backend
 │   │   ├── main.py                  # API entry point
 │   │   └── routes/                  # API routes
-│   ├── data_ingestion/           # Data processing
-│   │   ├── ingest_argo.py          # ARGO data ingestion
-│   │   └── nc_to_parquet.py        # NetCDF conversion
-│   ├── database/                 # Database layer
-│   │   ├── relational_db.py        # PostgreSQL operations
-│   │   └── vector_db.py            # ChromaDB operations
-│   ├── llm/                      # AI/ML components
-│   │   ├── rag_pipeline.py         # RAG implementation
-│   │   └── models.py               # LLM integration
-│   └── utils/                    # Utilities
-├── frontend/                     # React frontend
+│   ├── data_ingestion/              # Data processing
+│   │   ├── ingest_argo.py           # ARGO data ingestion
+│   │   └── nc_to_parquet.py         # NetCDF conversion
+│   ├── database/                    # Database layer
+│   │   ├── relational_db.py         # PostgreSQL operations
+│   │   └── vector_db.py             # ChromaDB operations
+│   ├── llm/                         # AI/ML components
+│   │   ├── rag_pipeline.py          # RAG implementation
+│   │   └── models.py                # LLM integration
+│   └── utils/                       # Utilities
+├── frontend/                        # React frontend
 │   ├── src/
-│   │   ├── components/             # React components
-│   │   ├── hooks/                  # Custom hooks
-│   │   └── utils/                  # Frontend utilities
+│   │   ├── components/              # React components
+│   │   ├── hooks/                   # Custom hooks
+│   │   └── utils/                   # Frontend utilities
 │   └── package.json
-├── data/                         # Data storage
-│   ├── raw/                        # Raw NetCDF files
-│   └── processed/                  # Processed data
-├── docs/                         # Documentation
-├── scripts/                      # Automation scripts
-├── tests/                        # Test suite
-├── docker-compose.yml              # Docker configuration
-├── requirements.txt                # Python dependencies
-└── README.md                       # This file
+├── data/                            # Data storage
+│   ├── raw/                         # Raw NetCDF files
+│   └── processed/                   # Processed data
+├── docs/                            # Documentation
+├── scripts/                         # Automation scripts
+├── tests/                           # Test suite
+├── docker-compose.yml               # Docker configuration
+├── requirements.txt                 # Python dependencies
+└── README.md                        # This file
 ```
 
 ## Configuration
