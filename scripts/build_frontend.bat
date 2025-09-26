@@ -1,0 +1,9 @@
+@echo off
+echo Building FloatChat Frontend for production...
+cd /d "%~dp0..\frontend"
+echo Installing dependencies...
+call npm install
+echo Building application...
+call npm run build
+echo Build completed! Files are in the 'dist' directory.
+pause
